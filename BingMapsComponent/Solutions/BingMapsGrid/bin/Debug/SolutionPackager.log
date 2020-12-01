@@ -1,0 +1,19 @@
+2020-12-01 17:15:47.419 - Info	
+Packing C:\Users\TSturgeon\source\repos\PCFComponents\BingMapsGrid\BingMapsComponent\Solutions\BingMapsGrid\obj\Debug\Metadata to bin\Debug\BingMapsGrid.zip
+
+2020-12-01 17:15:47.430 - Info	Processing Component: Entities
+2020-12-01 17:15:47.445 - Info	Processing Component: Roles
+2020-12-01 17:15:47.448 - Info	Processing Component: Workflows
+2020-12-01 17:15:47.448 - Info	Processing Component: FieldSecurityProfiles
+2020-12-01 17:15:47.449 - Info	Processing Component: Templates
+2020-12-01 17:15:47.449 - Info	Processing Component: EntityMaps
+2020-12-01 17:15:47.449 - Info	Processing Component: EntityRelationships
+2020-12-01 17:15:47.453 - Info	Processing Component: OrganizationSettings
+2020-12-01 17:15:47.454 - Info	Processing Component: optionsets
+2020-12-01 17:15:47.454 - Info	Processing Component: CustomControls
+2020-12-01 17:15:47.473 - Info	 - Tim.BingMapsComponent
+2020-12-01 17:15:47.491 - Info	Processing Component: SolutionPluginAssemblies
+2020-12-01 17:15:47.491 - Info	Processing Component: EntityDataProviders
+2020-12-01 17:15:47.508 - Info	
+Unmanaged Pack complete.
+

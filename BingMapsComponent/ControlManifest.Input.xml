@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Tim" constructor="BingMapsComponent" version="0.0.1" display-name-key="BingMapsComponent" description-key="BingMapsComponent description" control-type="standard">
+    <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
+    <data-set name="ViewDataSet" display-name-key="Dataset_Display_Key">
+      
+    </data-set>
+        <property name="bingMapsAPIKey" display-name-key="Bing Maps API Key" description-key="Enter your Bing Maps API Key." of-type="SingleLine.Text" usage="input" required="true" />
+        <property name="maxLocationsToShow" display-name-key="Max Locations to Show" description-key="The maximum number of locations to show on the map." of-type="Whole.None" usage="input" required="true" default-value="50" />
+        <property name="primaryFieldName" display-name-key="Primary Field" description-key="Enter the Primary Field schema which will be used to display the title on the map. For related entities use the following format (new_entityname.new_fieldname)" of-type="SingleLine.Text" usage="input" required="true" default-value="name" />  
+        <property name="descriptionFieldName" display-name-key="Description Field" description-key="Enter the Primary Field schema which will be used to display the title on the map. For related entities use the following format (new_entityname.new_fieldname)" of-type="SingleLine.Text" usage="input" required="false" />
+        <property name="latFieldName" display-name-key="Latitude Field" description-key="Enter the Latitude field schema name. For related entities use the following format (new_entityname.new_fieldname)" of-type="SingleLine.Text" usage="input" required="true" default-value="address1_latitude" />
+        <property name="longFieldName" display-name-key="Longitude Field" description-key="Enter the Latitude field schema name. For related entities use the following format (new_entityname.new_fieldname)." of-type="SingleLine.Text" usage="input" required="true" default-value="address1_longitude" />
+        <property name="locationTimestamp" display-name-key="Location Timestamp" description-key="Enter the schema name of the field to use as the time the location was recorded" of-type="SingleLine.Text" usage="input" required="false" default-value="createdon" />
+        <property name="locationExpiryTime" display-name-key="Location Expiry Time" description-key="If a location update is older than x minutes it will be marked as expired" of-type="Whole.None" usage="input" required="false" default-value="20" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/BingMapsGrid.css" order="1" />
+    </resources>
+  </control>
+</manifest>
