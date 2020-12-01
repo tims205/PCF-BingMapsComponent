@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="Tim" constructor="BingMapsComponent" version="0.0.1" display-name-key="BingMapsComponent" description-key="BingMapsComponent description" control-type="standard">
+  <control namespace="Tim" constructor="BingMapsComponent" version="0.0.2" display-name-key="BingMapsComponent" description-key="BingMapsComponent description" control-type="standard">
     <!-- dataset node represents a set of entity records on CDS; allow more than one datasets -->
     <data-set name="ViewDataSet" display-name-key="Dataset_Display_Key">
       
